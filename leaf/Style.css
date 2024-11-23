@@ -1,0 +1,22 @@
+h2 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 12px;
+  color: #515151;
+}
+
+button, input[type=submit], input[type=reset] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+/** {
+    outline: 1px solid red;
+}*//*# sourceMappingURL=Style.css.map */
