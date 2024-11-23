@@ -55,12 +55,14 @@
                 {
                     "question_id":0,
                     "question":"combien de kwa consomme votre poste de travail ?",
-                    "response":"2,4kwa"
+                    "responses":[{"answer":"2,4kwa"},{"answer":"3,4kwa"},{"answer":"2kwa"},{"answer":"12kwa"}],
+                    "correct_answer":0
                 },
                 {
                     "question_id":1,
                     "question":"Comment peut-on réduire la consommation énergétique des data centers ?",
-                    "response":"Optimisation de la refroidissement\nVirtualisation et consolidation\nEfficacité des équipements\nGestion de l'énergie\nSources d'énergie renouvelables\nOptimisation des logiciels :"
+                    "responses":[{"answer":"En faisant pipi sous la douche"},{"answer":"En debranchant la prise"},{"answer":"En eteignant les serveur à la fin de sa journée de travail"},{"answer":"Optimisation de la refroidissement\nVirtualisation et consolidation\nEfficacité des équipements\nGestion de l'énergie\nSources d'énergie renouvelables\nOptimisation des logiciels"}],
+                    "correct_answer":3
                 }
             ]
         }
