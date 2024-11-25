@@ -6,15 +6,24 @@ function Error404() {
     <main>
       <div className="header">
         <div className="leaf">
-          <img src="./assets/Leaf.svg" alt="logo feuille"></img>
+          <img
+            src={`${process.env.PUBLIC_URL}/assets/Leaf.svg`}
+            alt="logo feuille"
+          ></img>
           <p>0</p>
         </div>
         <div className="config">
           <button className="headerButton">
-            <img src="./assets/Sun.svg" alt="logo soleil"></img>
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/Sun.svg`}
+              alt="logo soleil"
+            ></img>
           </button>
           <button className="headerButton">
-            <img src="./assets/Ringbell.svg" alt="logo cloche"></img>
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/Ringbell.svg`}
+              alt="logo cloche"
+            ></img>
           </button>
         </div>
       </div>
@@ -23,7 +32,7 @@ function Error404() {
           <div className="questionCategory">
             <div className="categoriePicture">
               <img
-                src="./assets/Icon.svg"
+                src={`${process.env.PUBLIC_URL}/assets/Icon.svg`}
                 alt="logo categorie de question"
               ></img>
             </div>
@@ -61,19 +70,34 @@ function Error404() {
       </div>
       <nav className="footer">
         <button className="homeLink">
-          <img src="./assets/Home.svg" alt="logo maison"></img>
+          <img
+            src={`${process.env.PUBLIC_URL}/assets/Home.svg`}
+            alt="logo maison"
+          ></img>
         </button>
         <button className="homeLink">
-          <img src="./assets/Key.svg" alt="logo clef"></img>
+          <img
+            src={`${process.env.PUBLIC_URL}/assets/Key.svg`}
+            alt="logo clef"
+          ></img>
         </button>
         <button className="homeLink">
-          <img src="./assets/Play.svg" alt="logo lecture"></img>
+          <img
+            src={`${process.env.PUBLIC_URL}/assets/Play.svg`}
+            alt="logo lecture"
+          ></img>
         </button>
         <button className="homeLink">
-          <img src="./assets/Graph.svg" alt="logo graphique"></img>
+          <img
+            src={`${process.env.PUBLIC_URL}/assets/Graph.svg`}
+            alt="logo graphique"
+          ></img>
         </button>
         <button className="homeLink">
-          <img src="./assets/User.svg" alt="logo user"></img>
+          <img
+            src={`${process.env.PUBLIC_URL}/assets/User.svg`}
+            alt="logo user"
+          ></img>
         </button>
       </nav>
     </main>
