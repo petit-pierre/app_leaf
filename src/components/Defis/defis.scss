@@ -1,0 +1,30 @@
+.defi{
+    display: flex;
+    flex-direction: column; 
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.defisCount{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.defisCounter{
+    width: 30px;
+    height: 30px;
+    //padding: 5px;
+    border-radius: 10px;
+    background-color: #EBEBEB;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 15px;
+    p{
+        margin: auto;
+        color: #515151;
+    }
+}

@@ -16,6 +16,9 @@ button, input[type=submit], input[type=reset] {
   cursor: pointer;
   outline: inherit;
 }
+button:focus, input[type=submit]:focus, input[type=reset]:focus {
+  outline: 1px solid red;
+}
 
 body {
   max-width: 900px;

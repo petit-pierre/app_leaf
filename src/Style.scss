@@ -13,10 +13,13 @@ button, input[type="submit"], input[type="reset"] {
 	font: inherit;
 	cursor: pointer;
 	outline: inherit;
+	&:focus{
+		outline: 1px solid red;
+	}
 }
 body{
     max-width: 900px;
-    margin: auto;
+    margin: auto		;
 }
 /** {
     outline: 1px solid red;
