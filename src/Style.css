@@ -17,7 +17,7 @@ button, input[type=submit], input[type=reset] {
   outline: inherit;
 }
 button:focus, input[type=submit]:focus, input[type=reset]:focus {
-  outline: 1px solid red;
+  box-shadow: 0px 0px 9px 0px #86EFAC;
 }
 
 body {

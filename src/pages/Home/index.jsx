@@ -60,8 +60,8 @@ function Error404() {
                 <p>16s</p>
               </div>
             </div>
-            <button>
-              <p className="showAllDefis">Tout voir</p>
+            <button className="showAllDefis">
+              <p>Tout voir</p>
             </button>
           </div>
           <Defis defi={"Faire une partie sans faute !"} goal={1}></Defis>
